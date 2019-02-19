@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Sorting Visual";
+}
+
+
+<div class="container">
+    <h1 id="heading">Sorting with Animation </h1>
+
+    <div class="input common">
+        <h3>Input:</h3>
+        <input id="data" type="text" placeholder="enter comma separated numbers.." size="150">
+    </div>
+
+    <div class="common inline">
+        <h3>Sort Type:</h3>
+        <select id="sortType">
+            <option value="BubbleSort">Bubble Sort</option>
+            <option value="SelectionSort">Selection Sort</option>
+        </select>
+    </div>
+
+    <div class="common inline tab">
+        <h3>Data Type:</h3>
+        <select id="dataType">
+            <option value="int">Int</option>
+        </select>
+    </div>
+
+    <div class="button">
+        <button type="button" id="sort" class="btn btn-outline-light">SORT</button>
+    </div>
+
+   
+    <div class="w3-light-grey w3-tiny" style="width:380px">
+        <div id="myBar" class="w3-container w3-indigo" style="height:10px;width:0%">
+        </div>
+    </div>
+
+    <p id="myP">Sorted <span id="demo">0</span> of 10 elements</p>
+
+    <div class="canvas common">
+        <canvas id="myCanvas">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+    </div>
+
+</div>

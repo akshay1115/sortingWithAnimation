@@ -1,0 +1,79 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #E8CBC0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 380px;
+}
+
+.common {
+    margin: 25px auto;
+    color: aliceblue;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#dataType, #sortType {
+    height: 50px;
+    width: 150px;
+}
+.tab {
+    margin-left: 80px;
+}
+
+button {
+    margin-top: 40px ;
+    margin-bottom: 40px;
+    width: 380px;
+    height:50px;
+}
+
+#data{
+    height: 50px;
+    width: 380px;
+}
+
+#myCanvas {
+    width: 900px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+footer p{
+    color: aliceblue;
+}
+
+#heading {
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    z-index: 2;
+    margin-bottom: 100px;
+}
+
+p{
+    color: aliceblue;
+}
